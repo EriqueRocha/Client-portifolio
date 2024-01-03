@@ -10,7 +10,6 @@ export default function Home() {
   const id = localStorage.getItem('id');
   const nome = localStorage.getItem('nome');
   const navigate = useNavigate();
-  const hasManagerRole = userAuthorities.includes('ROLE_MANAGER');
   const [dados, setDados] = useState(null);
   
   useEffect(() => {

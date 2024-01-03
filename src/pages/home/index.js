@@ -21,7 +21,7 @@ export default function Home() {
             'Content-Type': 'application/json',
         };
 
-        api.get('http://localhost:80/projetos/getList', { headers })
+        api.get('projetos/getList', { headers })
             .then(response => {
                 setDados(response.data);
             })

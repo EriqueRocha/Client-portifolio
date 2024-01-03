@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "msedge",
+            "name": "http://GDUEA",
+            "request": "launch",
+            "url": "http://GDUEA"
+        }
+    ]
+}
